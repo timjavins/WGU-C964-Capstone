@@ -1,11 +1,25 @@
 Project Proposal
 
-Problem
-Global Investment Solutions has helped its clients find appropriate investments for many years. With the increasing complexity of stock markets and the need for data-driven decision-making, many of our clients have been asking for more sophisticated tools to analyze stock prices and optimize their trading strategies. A recent article by Forbes highlighted the importance of leveraging machine learning and data analytics in financial markets to stay competitive. It’s crucial for our company to be equipped and ready for this evolving landscape.
+## Problem
+With the rising costs of living, unattainable single-family house prices, the increasing wealth chasm between rich and poor, and the ever-busier American lifestyle, Americans need a new entry point to wealth development. Though innovative companies, such as Robinhood and Acorns, have lowered the difficulty for Americans to invest, they still lack the time to investigate opportunities and actively participate during the work week. Americans need to make data-driven investment decisions without the ability to collect the data, much less analyze it.
 
-As of today, Global Investment Solutions is not equipped with the advanced tools required to guide our clients in making data-driven investment decisions. Currently, our main offerings within the financial advising space are focused on traditional analysis methods. Many of our customers are more tech-savvy and would like to utilize advanced analytics for higher accuracy in their investments. This is an area we are currently lacking.
+LendingClub and PYMNTS.com published *Reality Check: The Paycheck-To-Paycheck Report* in March 2022, which highlighted how rising costs and economic shifts are impacting people's ability to save and invest. Most importantly, the report revealed that **61% of Americans live paycheck-to-paycheck**. Fusing this data with population data from the US Census Bureau, there are over 208 million people who would benefit from a solution to this problem, including over 45 million children. This means there are more than 162 million adults who may resonate with small-scale investment opportunities. (U.S. Census Bureau, 2024) 
 
-Solution
+The US Census Bureau lists about 78 million households (59%) earning less than $100,000 per year. In estimating the annual buying power of the paycheck-to-paycheck group, it would be simple to assume the lowest income bracket and derive from that demographic. However, an estimate of *$9.233 trillion*--based on 80,642,000 households and the average income of $114,500 (U.S. Census Buerau, 2024)--is supported by the fact that the *Reality Check* survey group included a significant number of **_individuals_** earning *over $100,000* annually. Notably, there was also a significant number who expressed interest in investing but felt barred by high entry points or lack of knowledge. This emphasizes the importance of creating accessible investment opportunities that cater to those starting with just a few dollars.
+
+Younger generations, especially Millennials and Gen Z, are particularly intriguing here. They are tech-savvy, comfortable with apps, and open to non-traditional financial avenues. Even with limited funds, they show a keen interest in micro-investing platforms that allow them to start with as little as $1. This taps into a desire many have to take control of their financial destinies, even when starting small.
+
+Still, many people hesitate to invest because it feels intimidating, complicated, or unfamiliar. Simplifying investment processes could empower them to get started. 
+
+Global Investment Solutions does not currently present a low-cost offering for the cash-strapped, timebound, unsophisticated majority of American would-be investors. While not investment savvy, these holders of trillions of dollars are often tech-savvy and find advanced analytics enticing.
+
+## Solution
+On a related note, exploring community-driven investment models or social features could amplify engagement. People often feel more confident and motivated when they can share experiences and progress with peers. Gamification elements might also make investing feel more accessible and even enjoyable.
+
+By zeroing in on this demographic, you're tapping into a movement of people ready to grow, learn, and invest in their futures—even if they're starting with just a few dollars. It's about building bridges between where they are now and the financial stability they aspire to achieve. Imagine focusing on Americans who are juggling tight budgets but are eager to dip their toes into investing, even if it's just spare change. These are individuals often earning between $20,000 and $50,000 annually. They're not swimming in disposable income, but they've got that spark to grow their financial future bit by bit.
+
+Expanding your project to engage this group could have a profound impact. Not only does it open up a vast market, but it also contributes to greater financial inclusion and empowerment.
+
 I believe we can enhance our business’s offerings with a new data product. This data product will enable the analysis of stock prices and the implementation of trading strategies. The Stock Price Analysis and Trading Strategy Platform will enable our employees to get the information they need to successfully recommend the best times for our customers to make stock investments. They will be able to make better-informed decisions that will lead to higher quality financial advisement.
 
 This tool will display stock price data in several ways that will give a clear look at the current price trends. Based on these trends, we can make recommendations to those customers looking to optimize their stock portfolios. I believe this product will enable our company to branch out and create new revenue streams. This will also give us a competitive advantage over our competitors that don’t offer advanced data analytics.
