@@ -1,6 +1,6 @@
-LETTER OF TRANSMITTAL
+# LETTER OF TRANSMITTAL
 
-February 17, 2025
+February 10, 2025
 
 Alex Carter, CTO  
 Global Investment Solutions  
@@ -38,6 +38,7 @@ Thank you for your time and support. I am available to discuss any details or an
 
 Sincerely,  
 
-Timothy Javins
-Project Manager, Global Investment Solutions  
+Timothy Javins  
+Project Manager  
+Global Investment Solutions  
 timothy.javins@gis.ai

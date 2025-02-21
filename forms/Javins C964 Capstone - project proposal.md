@@ -1,4 +1,4 @@
-Project Proposal
+# Project Proposal
 
 ## Problem
 With the rising costs of living, unattainable single-family house prices, the increasing wealth chasm between rich and poor, and the ever-busier American lifestyle, Americans need a new entry point to wealth development. Though innovative companies, such as Robinhood and Acorns, have lowered the difficulty for Americans to invest, people still lack the time to investigate opportunities and actively participate during the work week. Americans need to make data-driven investment decisions but lack the ability to collect the data, much less analyze it.
@@ -32,13 +32,14 @@ For context, candlestick charts will show daily summary price data, including op
 ## Data Summary
 
 The data used to train the models will be sourced from Yahoo Finance, including daily price data such as:
+  
+- High (floating point decimal)
+- Low (floating point decimal)
+- Open (floating point decimal)
+- Close (floating point decimal)
+- Volume (floating point decimal)
+- Date (Text)
 
-• High (floating point decimal)
-• Low (floating point decimal)
-• Open (floating point decimal)
-• Close (floating point decimal)
-• Volume (floating point decimal)
-• Date (Text)
 
 Because the project will rely exclusively on publicly available data sourced from Yahoo Finance, which contains no personally identifiable information (PII), there are no immediate concerns regarding PII or customer data privacy. All intellectual property developed in the project will be safeguarded in accordance with existing policies and best practices.
 
@@ -48,13 +49,13 @@ Once fully developed, the product will pull fresh data after the closing bell ea
 
 The data will be time-series data, limited to summary metrics for each day. This simple daily time interval will make for an easily understood entry point for new investors, but will have other benefits as well. A finer granularity, such as price changes by the minute or by the second, would present higher costs and information overload for the user. To avoid these complications and others resulting from potential pattern day trading (PDT), more granular data and higher frequency signals are out of scope for this project.
 
-# Objective and Hypothesis
+## Objective and Hypothesis
 
 The primary objective of this project is to establish a baseline proof-of-concept in support of devloping a low-cost, accessible investment platform that empowers Americans, especially those living paycheck-to-paycheck, to make data-driven investment decisions. By utilizing machine learning algorithms, the platform will aim to simplify the investment process and provide users with actionable buy/sell signals. This will help users, particularly those with limited financial knowledge and resources, to start investing with confidence and gradually build their wealth.
 
 The hypothesis is that the Ensemble Model can generate reliable buy/sell signals that outperform traditional investment strategies, such as a simple buy and hold approach, by utilizing an XGBoost machine learning model to predict stock price movements. By providing users with accurate and timely investment recommendations, the platform will not only improve their financial outcomes but also increase their confidence and participation in the stock market. This, in turn, will contribute to greater financial inclusion and empowerment for a broader demographic, ultimately leading to higher customer satisfaction and increased revenue for Global Investment Solutions.
 
-# Project Methodology
+## Project Methodology
 
 Instead of following a strict, sequential process, the project will benefit from an Agile approach, which embraces an iterative and incremental cycle. This will allows for building, testing, and refining the investment platform continuously in close collaboration with stakeholders. Below is an outline of the Agile process for the project:
 
@@ -88,7 +89,7 @@ Instead of following a strict, sequential process, the project will benefit from
    - Monitor performance, gather continuous user feedback, and address bugs or enhancement opportunities through additional sprints.  
    - Ensure the platform evolves with market demands and user expectations, sustaining an agile response to change over time.
 
-# Timeline
+## Timeline
 
 | Milestone                                 | Duration                 | Projected Start Date | Anticipated End Date |
 |-------------------------------------------|--------------------------|----------------------|----------------------|
@@ -102,7 +103,7 @@ Instead of following a strict, sequential process, the project will benefit from
 | Sprint Retrospective & Continuous Improvement (Sprint 2) | 2 hours   | Feb. 17, 2025        | Feb. 17, 2025        |
 | Ongoing Release & Maintenance             | Ongoing                  | Feb. 18, 2025        | Ongoing              |
 
-# Evaluation Plan
+## Evaluation Plan
 
 During the initial phase, each module—whether it be data collection, preprocessing, or feature engineering—will be subjected to unit tests to ensure that individual functions are performing as expected. As new features are created (for instance, those generated by the feature engineering process), unit testing will be employed to verify that the transformations correctly handle missing values and produce a clean dataset.
 
@@ -116,7 +117,7 @@ Finally, upon project completion, the overall validation will be conducted by co
 
 This comprehensive evaluation plan ensures all aspects of the product will be robustly tested and validated before deployment.
 
-# Funding Requirements
+## Funding Requirements
 
 For establishing the Ensemble Model proof-of-concept, the funding requirements are kept to a minimum by leveraging open-source tools and a lean development process. Key funding elements include:
 
