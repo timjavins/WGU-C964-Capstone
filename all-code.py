@@ -25,8 +25,7 @@ def preprocess_data(file_path):
     data = data.dropna()
     data = data.rename(columns={'Price': 'Date'})
     # Delete rows 2 and 3
-    data = data.drop(data.index[0])
-    data = data.drop(data.index[0])
+    data = data.drop(data.index[[0, 1]])
     data['Date'] = pd.to_datetime(data['Date'])
     data.set_index('Date', inplace=True)
     for col in data.columns:
