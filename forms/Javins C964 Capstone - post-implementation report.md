@@ -24,10 +24,10 @@ The application pulled its data from API calls and stored it local to the model 
 
 However, the project team considered future development advances and prepared the deliverables to be safeguarded in the proprietary aspects of the model, including its configurations, training data, and performance metrics. The team prepared measures such as secure storage, regular access audits, and proper version control to be implemented, ensuring that intellectual property and model integrity remain protected against unauthorized access or misuse. These precautions helped maintain data governance standards and secure the transition from a proof-of-concept to a production-ready platform.
 
-**Collection:** The application downloaded stock data for tickers such as AAPL (Apple) and ^GSPC (S&P 500) within defined date ranges.
-**Preprocessing:** The application read and cleaned the data, dropping missing values and specific rows. Some columns were renamed/retyped.
-**Feature Engineering:** The application created new columns, such as Return, Volatility, and Momentum, and computed new values for these columns in order to capture the key predictors.
-**Management:** The application save processed data at multiple stages as CSV files, providing a layer of versioning through the design, development, and testing phases.
+**Collection:** The application downloaded stock data for tickers such as AAPL (Apple) and ^GSPC (S&P 500) within defined date ranges.  
+**Preprocessing:** The application read and cleaned the data, dropping missing values and specific rows. Some columns were renamed/retyped.  
+**Feature Engineering:** The application created new columns, such as Return, Volatility, and Momentum, and computed new values for these columns in order to capture the key predictors.  
+**Management:** The application save processed data at multiple stages as CSV files, providing a layer of versioning through the design, development, and testing phases.  
 
 ## Machine Learning
 
@@ -131,7 +131,7 @@ These metrics were calculated and compared against the S&P 500 benchmark to eval
 
 The application generated several visualizations in its final phase. 
  - **Candlestick Charts:** Using the `plotly` library, one chart was generated for the Apple stock and another for the S&P 500. These two charts showed the price movements over the testing period, which provided context for the real-world performance of these two investment vehicles.
- 
+
  - **Line Charts:** Two line charts showed the comparative cumulative returns, generated with the `matplotlib` library.
  
  The first chart visualized the trading strategy's performance in comparison to the S&P 500 index. While the S&P 500 outperformed the EM, there were some periods in which the EM outperformed the index.
